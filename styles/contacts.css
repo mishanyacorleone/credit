@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    /* background-image: url(../attachments/images/bg-green-white.jpg); */
+    min-height: 100vh;
+    background-color:azure !important;
+}
+
+
+/* navbar */
+
+nav {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.3s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+    border-bottom-color: black;
+    transition: 0.5s all;
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+}

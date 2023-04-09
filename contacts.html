@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contacts.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Онлайн банк</title>
+</head>
+<body class="d-flex flex-column">
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="#">
+              <img src="attachments/images/icon.png" alt="logo" width="30" height="auto" class="d-inline-block align-text-top">
+              БетаБанк
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-fill w-100">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="loans.html">Loans</a>
+                    <a class="nav-link" href="conditions.html">Conditions</a>
+                    <a class="nav-link" href="contacts.html">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container m-auto">
+      <h2 class="text-black">Заполните форму и с вами свяжутся в течение 3-х минут</h2>
+      <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Имя</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Имя" size="30">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Фамилия</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Фамилия" size="30">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput3" class="form-label">Номер телефона</label>
+          <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="+7 (900) 000-00-00" size="30">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Выберите причину</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Кредиты и вклады</option>
+            <option value="1">Страхование</option>
+            <option value="2">Ипотека</option>
+            <option value="3">Другое</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-outline-primary text-black">Отправить</button>
+      </form>
+    </div>
+
+    <footer class="bg-light py-3 mt-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="mb-0">©БетаБанк. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 text-lg-end">
+              <a href="#" class="me-4 text-reset">Privacy Policy</a>
+              <a href="#" class="text-reset">Terms of Use</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+  
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
